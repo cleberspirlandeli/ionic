@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Produtos</ion-title>
+    <ion-buttons start>
+      <button ion-button menuToggle="leftMenu">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    
+    <ion-buttons end>
+      <button ion-button menuToggle="rightMenu">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Nossos produtos</h2>
+
+  <p>Temos {{numProdutos}} produtos em estoque no momento.</p>
+
+  <p><b>OFERTA:</b> Notebook Intel Core i5 6GB por {{precoNotebook | currency:'BRL'}}!</p>
+  
+</ion-content>
